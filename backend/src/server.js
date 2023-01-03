@@ -5,8 +5,8 @@ const connect = require("./config/db");
 
 const start = async () => {
   await connect();
-  app.listen("7000", () => {
-    console.log("Listening to port 7000");
+  app.listen("3000", () => {
+    console.log("Listening to port 3000");
   });
 };
 
